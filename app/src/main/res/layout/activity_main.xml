@@ -20,27 +20,35 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TeamA"
-            android:gravity="center_horizontal"/>
+            android:gravity="center_horizontal"
+            android:padding="4dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/score_a"
             android:text="0"
-            android:gravity="center_horizontal"/>
+            android:gravity="center_horizontal"
+            android:padding="4dp"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="+3 Points"/>
+            android:text="+3 Points"
+            android:layout_margin="8dp"
+            android:onClick="Plus3"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="+2 Points"/>
+            android:text="+2 Points"
+            android:layout_margin="8dp"
+            android:onClick="Plus2"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="free throw"/>
+            android:text="free throw"
+            android:layout_margin="8dp"
+            android:onClick="PlusFree"/>
 
     </LinearLayout>
 
